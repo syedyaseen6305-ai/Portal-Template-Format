@@ -145,7 +145,7 @@ def process_file(uploaded_file, template_file):
             # Apply short date format ONLY to 'Date' column (column 7)
             if c_idx == 7 and isinstance(value, (datetime, pd.Timestamp)):
                 cell.value = value.date()  # Remove time part
-                cell.number_format = 'dd/mm/yyyy'
+                cell.number_format = 'mm/yyyy/dd'
             elif isinstance(value, pd.Timestamp):
                 cell.number_format = 'yyyy/mm/dd hh:mm'
 
