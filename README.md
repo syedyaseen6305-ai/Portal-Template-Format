@@ -4,7 +4,6 @@ A Streamlit app that formats and processes aircraft daily ops Excel files.
 
 ## 📦 Features
 - Sorts flights by category (Transit, On Call, Canceled)
-- Converts DATE into `YYYY/MM/DD` format
 - Converts STA, ATA, STD, and ATD into `YYYY/MM/DD HH:MM:SS` format
 - Auto-fills services based on checkmarks (√)
 - Cleans up employee codes and other flight metadata
